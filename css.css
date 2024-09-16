@@ -1,0 +1,111 @@
+body {
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.header {
+    height: 150px;
+    width: 100%;
+    background-color: #928adbe3 ;
+    display: flex;
+    align-items: center;
+}
+ 
+.brand_img {
+    height: 110px;
+    width: 110px;
+    border-radius: 360px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+ 
+.title {
+    font-family: BlinkMacSystemFont;
+    font-size: 55px;
+    margin-right: 35%;
+}
+ 
+.section_button {
+    align-content: center;
+    text-align: center;
+    height: 38px;
+    width: 117px;
+    border-radius: 10px;
+    background-color: #796cbe;
+    font-family: cursive; 
+    font-size: 20px;
+    margin-right: 58px;
+}
+ 
+.carrosel {
+    height: 712px;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 96px;
+    background-color: #cb8be4;
+}
+ 
+.section0 {
+    display: grid;
+    margin-top: 60px;
+    margin-left: 307px;
+    margin-right: 307px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 10px;
+    grid-template-areas: "";
+}
+ 
+.divs_top {
+    height: 314px;
+    width: 392px;
+    background-color: #b676cf;
+}
+ 
+.div_big {
+    height: 470px;
+    width: 392px;
+    background-color: #6858ac;
+}
+ 
+.divs_small0 {
+    height: 470px;
+    width: 392px;
+    text-align: left;
+}
+ 
+.divs_small {
+    height: 130px;
+    width: 131px;
+    background-color: #6c2fa5;
+    align-items: left;
+}
+ 
+.img_small {
+    margin-left: 0%;
+    margin-right: 10px;
+}
+ 
+ 
+ 
+ 
+footer {
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #a671d8e3;
+    align-content: center;
+    text-align: center;
+}
+ 
+.dev_sign {
+    font-size: 40px;
+}
+ 
+.name {
+    font-family: cursive;
+}
